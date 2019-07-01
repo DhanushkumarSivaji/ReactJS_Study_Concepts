@@ -4,6 +4,7 @@ import HoverCounter from './HigherOrderComponents/HoverCounter'
 import Hero from './ErrorBoundary/Hero'
 import ErrorBoundary from './ErrorBoundary/ErrorBoundary'
 import PureCompoent from './PureComponents/ParentComp'
+import MemoComponent from './MemoComponent/ParentComp'
 import './App.css';
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
 
       {/*Pure Component*/}
       {/* <PureCompoent/> */}
+
+      {/*Memo Component*/}
+      {/* <MemoComponent/> */}
 
     </div>
   );
